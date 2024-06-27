@@ -10,7 +10,7 @@ function Baul6() {
                     <div className="col-md-6 baul-item">
                         <div className="recent-work">
                             <div className="box_about">
-                                <figure><a><img src=".\src\docs\post\napoles1.jpg" alt="" /></a></figure>
+                                <figure><a><img src="/napoles1.jpg" alt="" /></a></figure>
                                 <h4 className="prid_text_b">SECCIÓN 1</h4>
                                 <div className="ban">
                                     <a>Sobre este baúl: Vida y costumbres
@@ -22,14 +22,14 @@ function Baul6() {
                                     Carnaval
                                     hasta la pasión por la ópera, esta sección ofrece una ventana a la rica vida social y
                                     cultural de la ciudad.</p>
-                                <audio className="w-100" controls src=".\src\audios\napoles-sec1.mp3"></audio>
+                                <audio className="w-100" controls src="/napoles-sec1.mp3"></audio>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 baul-item">
                         <div className="recent-work">
                             <div className="box_about">
-                                <figure><a><img src=".\src\docs\post\napoles2.jpg" alt="" /></a></figure>
+                                <figure><a><img src="/napoles2.jpg" alt="" /></a></figure>
                                 <h4 className="prid_text_b">SECCIÓN 2</h4>
                                 <div className="ban">
                                     <a>Sobre este baúl: Gastronomía Napolitana en
@@ -40,14 +40,14 @@ function Baul6() {
                                     los refinados paladares parisinos. Esta sección invita a los visitantes a saborear la
                                     auténtica
                                     cocina napolitana en el corazón de París.</p>
-                                <audio className="w-100" controls src=".\src\audios\napoles-sec2.mp3"></audio>
+                                <audio className="w-100" controls src="/napoles-sec2.mp3"></audio>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 baul-item">
                         <div className="recent-work">
                             <div className="box_about">
-                                <figure><a><img src=".\src\docs\post\napoles3.jpg" alt="" /></a></figure>
+                                <figure><a><img src="/napoles3.jpg" alt="" /></a></figure>
                                 <h4 className="prid_text_b">SECCIÓN 3</h4>
                                 <div className="ban">
                                     <a>Sobre este baúl: La belleza de Nápoles
@@ -58,7 +58,7 @@ function Baul6() {
                                     hasta la impresionante costa, esta sección celebra la belleza única de la ciudad a
                                     través de obras de artistas
                                     napolitanos, capturando la esencia de sus paisajes urbanos y naturales.</p>
-                                <audio className="w-100" controls src=".\src\audios\napoles-sec3.mp3"></audio>
+                                <audio className="w-100" controls src="/napoles-sec3.mp3"></audio>
                             </div>
                         </div>
                     </div>

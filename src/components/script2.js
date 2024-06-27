@@ -1,7 +1,7 @@
 const script2 = [
 	{
 		id: 5,
-		image:'./src/docs/post/van-gogh.jpg',
+		image:'/van-gogh.jpg',
 		title: 'Van Gogh',
 		category: 'Países B.',
 		date: '-01 de Abril, 2023 - Descúbrelo ahora',
@@ -10,7 +10,7 @@ const script2 = [
 	},
 	{
 		id: 6,
-		image:'./src/docs/post/barcos.jpg',
+		image:'/barcos.jpg',
 		title: 'Travesía del Arte Naval Antiguo',
 		category: 'Inglaterra',
 		date: '-24 de Junio, 2023 - Descúbrelo ahora',
@@ -19,7 +19,7 @@ const script2 = [
 	},
 	{
 		id: 7,
-		image:'./src/docs/post/venus.jpg',
+		image:'/venus.jpg',
 		title: 'El Nacimiento de Venus de Botticelli',
 		category: 'Italia',
 		date: '-02 de Mayo, 2023 - Descúbrelo ahora',
@@ -28,7 +28,7 @@ const script2 = [
 	},
 	{
 		id: 8,
-		image:'./src/docs/post/napoles.jpg',
+		image:'/napoles.jpg',
 		title: 'Nápoles en París',
 		category: 'Francia',
 		date: '-01 de Junio, 2023 - Descúbrelo ahora',

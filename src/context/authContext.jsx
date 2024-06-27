@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { registerRequest, loginRequest, verifyTokenRequest } from "../api/auth";
+import { registerRequest, loginRequest, verifyTokenRequest, contactRequest } from "../api/auth";
 import Cookies from "js-cookie";
 
 const AuthContext = createContext();
@@ -47,6 +47,15 @@ export const AuthProvider = ({ children }) => {
     Cookies.remove("token");
     setIsAuthenticated(false);
     setUser(null);
+  };
+
+  const contact = async () => {
+    try {
+      const res = await contactRequest();
+    } catch (error) {
+      //console.log(error.response.data);
+      setErrors(error.response.data);
+    }
   };
 
   /*linea extra
@@ -109,6 +118,7 @@ export const AuthProvider = ({ children }) => {
         errors,
         loading,
         logout,
+        contact,
         /*favs,
         setFavs,
         addfav,*/

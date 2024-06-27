@@ -7,7 +7,7 @@ function Gallery() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="galery_img1 image-container">
-                                <img src=".\src\docs\galleria\galeria_1.jpg" alt="" />
+                                <img src="/galeria_1.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -45,7 +45,7 @@ function Gallery() {
                         </div>
                         <div className="col-lg-6">
                             <div className="galery_img image-container">
-                                <img src=".\src\docs\galleria\galeria_22.jpg" alt="" />
+                                <img src="/galeria_22.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Gallery() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="galery_img1 image-container">
-                                <img src=".\src\docs\galleria\galeria_33.jpg" alt="" />
+                                <img src="/galeria_33.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -108,7 +108,7 @@ function Gallery() {
                         </div>
                         <div className="col-lg-6">
                             <div className="galery_img image-container">
-                                <img src=".\src\docs\galleria\galeria_44.jpg" alt="" />
+                                <img src="/galeria_44.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ function Gallery() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="galery_img1 image-container">
-                                <img src=".\src\docs\galleria\galeria_55.jpg" alt="" />
+                                <img src="/galeria_55.jpg" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

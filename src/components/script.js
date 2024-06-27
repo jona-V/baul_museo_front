@@ -1,7 +1,7 @@
 const script = [
 	{
 		id: 1,
-		image:'./src/docs/post/chichen-itza.jpg',
+		image:'/chichen-itza.jpg',
 		title: 'Chichén Itzá',
 		category: 'Zonas arqueológicas',
 		date: '-25 de Abril, 2023 - Descúbrelo ahora',
@@ -10,7 +10,7 @@ const script = [
 	},
 	{
 		id: 2,
-		image:'./src/docs/post/edzna.jpg',
+		image:'/edzna.jpg',
 		title: 'Edzná',
 		category: 'Zonas arqueológicas',
 		date: '-15 de Mayo, 2023 - Descúbrelo ahora',
@@ -19,7 +19,7 @@ const script = [
 	},
 	{
 		id: 3,
-		image:'./src/docs/post/maya-principal.jpg',
+		image:'/maya-principal.jpg',
 		title: 'Cultura Maya',
 		category: 'Culturas',
 		date: '-29 de Junio, 2023 - Descúbrelo ahora',
@@ -28,7 +28,7 @@ const script = [
 	},
 	{
 		id: 4,
-		image:'./src/docs/post/dinosaurios.jpg',
+		image:'/dinosaurios.jpg',
 		title: 'Dinosaurios',
 		category: 'Prehistoria',
 		date: '-02 de Agosto, 2023 - Descúbrelo ahora',

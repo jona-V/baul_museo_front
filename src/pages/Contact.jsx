@@ -7,7 +7,7 @@ import { contactRequest } from "../api/auth";
 import { useAuth } from "../context/authContext";
 
 function Contact() {
-    const { errors: contactErrors } = useAuth();
+    const {contact, errors: contactErrors } = useAuth();
     const {
         register,
         handleSubmit,
@@ -15,9 +15,14 @@ function Contact() {
     } = useForm();
 
     const handleClick = () => {
+        if (contactErrors) return alert("Ingresa los Datos Completos");
+
         if (!contactErrors) return alert("Datos Enviados");
-        
-        alert("Ingresa los Datos Completos");
+        /*if (Object.keys(contactErrors).length===0){
+            return alert("Datos Enviados");
+        } else {
+            return alert("Ingresa los Datos Completos");
+        }*/
     }
 
     return (
