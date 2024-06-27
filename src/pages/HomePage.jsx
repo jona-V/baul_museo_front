@@ -87,7 +87,7 @@ function HomePage() {
                   <div className="target">
                      <div className="card">
                         <div className="">
-                           <figure><a href="/#/baulMexico"><img src="/Mexico.png" alt="" /></a></figure>
+                           <figure><a href="/#/baulMexico"><img src="/Mexico.jpg" alt="" /></a></figure>
                         </div>
                         <div className="target-body">
                            <h4 className="prid_text">Baúles de México</h4>
@@ -99,7 +99,7 @@ function HomePage() {
                      </div>
                      <div className="card">
                         <div className="">
-                           <figure><a href="/#/baulMundo"><img src="/Mundo.png" alt="" /></a></figure>
+                           <figure><a href="/#/baulMundo"><img src="/Mundo.jpg" alt="" /></a></figure>
                         </div>
                         <div className="target-body">
                            <h4 className="prid_text">Baúles del mundo</h4>
