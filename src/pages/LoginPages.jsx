@@ -52,7 +52,7 @@ export function LoginPages() {
             </form>
             <p>
                 ¿Aún no tienes cuenta? Crea una ahora:  <span className="spa1">
-                    <Link className="text-sky-500" to="/#/register">
+                    <Link className="text-sky-500" to="/register">
                         Registrarme
                     </Link> </span>
             </p>

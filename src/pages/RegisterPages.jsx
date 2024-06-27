@@ -53,7 +53,7 @@ function RegisterPages() {
             </form>
             <p>
                 ¿Ya tienes una cuenta? Ingresa ahora:  <span className="spa1">
-                    <Link className="text-sky-500" to="/#/login">
+                    <Link className="text-sky-500" to="/login">
                         Iniciar sesión
                     </Link> </span>
             </p>

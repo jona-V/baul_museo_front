@@ -24,7 +24,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="\src\docs\pintura.png" alt="" /></figure>
+                                             <figure><img src=".\src\docs\pintura.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
@@ -41,7 +41,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="\src\docs\dino.png" alt="" /></figure>
+                                             <figure><img src="..\src\docs\dino.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
@@ -58,7 +58,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="\src\docs\estatua.png" alt="" /></figure>
+                                             <figure><img src="/src/docs/estatua.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
