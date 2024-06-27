@@ -7,23 +7,19 @@ import { contactRequest } from "../api/auth";
 import { useAuth } from "../context/authContext";
 
 function Contact() {
-    const {contact, errors: contactErrors } = useAuth();
+    const { errors: contactErrors } = useAuth();
     const {
         register,
         handleSubmit,
         formState: { errors },
+        reset,
     } = useForm();
 
-    const handleClick = () => {
-        if (contactErrors) return alert("Ingresa los Datos Completos");
-
-        if (!contactErrors) return alert("Datos Enviados");
-        /*if (Object.keys(contactErrors).length===0){
-            return alert("Datos Enviados");
-        } else {
-            return alert("Ingresa los Datos Completos");
-        }*/
-    }
+    const onSubmit = handleSubmit((values) => {
+        contactRequest(values);
+        reset();
+        alert("Datos enviados");
+    })
 
     return (
         <div>
@@ -35,7 +31,7 @@ function Contact() {
                                 <div className="board">
                                     <h2>INFORMACIÓN GENERAL</h2>
                                     <div className="con">
-                                        <img src="\src\docs\dino.png" alt="" width="190px" />
+                                        <img src="/dino.png" alt="" width="190px" />
                                     </div>
                                 </div>
                             </div>
@@ -72,26 +68,25 @@ function Contact() {
                                                 ))}
                                             </div>
                                         ))}
-                                        <form onSubmit={handleSubmit(async (values) => {
-                                            contactRequest(values)
-                                        })}>
+                                        <form onSubmit={onSubmit}>
                                             <Form.Group className="mb-3">
                                                 <Form.Control type="text" name="username" placeholder="Nombre*" {...register("username", { required: true })} />
                                                 {errors.username && (<p>Nombre de usuario es necesario</p>)}
                                             </Form.Group>
                                             <Form.Group className="mb-3">
                                                 <Form.Control type="email" name="email" placeholder="Correo*" {...register("email", { required: true })} />
-                                                {errors.username && (<p>Correo es necesario</p>)}
+                                                {errors.email && (<p>Correo es necesario</p>)}
                                             </Form.Group>
                                             <Form.Group className="mb-3">
-                                                <Form.Control type="phone" name="phone" placeholder="Teléfono*" {...register("phone", { required: true })} />
-                                                {errors.username && (<p>Teléfono es necesario</p>)}
+                                                <Form.Control type="phone" name="phone" placeholder="Teléfono*" {...register("phone", { required: true, minLength:10 })} />
+                                                {errors.phone && (<p>Teléfono es necesario</p>)}
+                                                {errors.phone?.type==="minLength" && (<p>Recuerda que son necesarios 10 digitos</p>)}
                                             </Form.Group>
                                             <Form.Group className="mb-3">
                                                 <Form.Control type="message" name="message" placeholder="Mensaje..*" {...register("message", { required: true })} />
-                                                {errors.username && (<p>Teléfono es necesario</p>)}
+                                                {errors.message && (<p>Mensaje es necesario</p>)}
                                             </Form.Group>
-                                            <Button variant="primary" type="submit" onClick={handleClick}>
+                                            <Button variant="primary" type="submit">
                                                 Enviar
                                             </Button>
                                         </form>

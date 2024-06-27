@@ -19,7 +19,7 @@ function Footer() {
                   <h3 className="footer_text">SOBRE NOSOTROS</h3>
                   <p className="dummy_text">Somos una empresa apasionada por la historia y cultura del mundo, es por ello que
                      nos encargamos
-                     de difundir toda esta informacion de una manera clara y concisa.
+                     de difundir toda esta información de una manera clara y concisa.
                   </p>
 
                </div>

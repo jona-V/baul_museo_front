@@ -19,7 +19,7 @@ function HomePage() {
                                        <div className="col-md-8">
                                           <div className="board">
                                              <h1>MUSEO EN TUS MANOS</h1>
-                                             <p>¡Increibles exposiciones al alcance de cualquier persona!</p>
+                                             <p>¡Increíbles exposiciones al alcance de cualquier persona!</p>
                                           </div>
                                        </div>
                                        <div className="col-md-4">

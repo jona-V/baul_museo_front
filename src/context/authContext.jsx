@@ -52,8 +52,9 @@ export const AuthProvider = ({ children }) => {
   const contact = async () => {
     try {
       const res = await contactRequest();
+      console.log(res);
     } catch (error) {
-      //console.log(error.response.data);
+      console.log(error.response.data);
       setErrors(error.response.data);
     }
   };
