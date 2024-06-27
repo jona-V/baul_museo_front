@@ -24,7 +24,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="/pintura.svg" alt="" /></figure>
+                                             <figure><img src="/pintura.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
@@ -41,7 +41,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="/dino.svg" alt="" /></figure>
+                                             <figure><img src="/dino.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
@@ -58,7 +58,7 @@ function HomePage() {
                                        </div>
                                        <div className="col-md-4">
                                           <div className="every_img d_flex">
-                                             <figure><img src="/estatua.svg" alt="" /></figure>
+                                             <figure><img src="/estatua.png" alt="" /></figure>
                                           </div>
                                        </div>
                                     </div>
@@ -87,7 +87,7 @@ function HomePage() {
                   <div className="target">
                      <div className="card">
                         <div className="">
-                           <figure><a href="/#/baulMexico"><img src="/Mexico.svg" alt="" /></a></figure>
+                           <figure><a href="/#/baulMexico"><img src="/Mexico.png" alt="" /></a></figure>
                         </div>
                         <div className="target-body">
                            <h4 className="prid_text">Baúles de México</h4>
@@ -99,7 +99,7 @@ function HomePage() {
                      </div>
                      <div className="card">
                         <div className="">
-                           <figure><a href="/#/baulMundo"><img src="/Mundo.svg" alt="" /></a></figure>
+                           <figure><a href="/#/baulMundo"><img src="/Mundo.png" alt="" /></a></figure>
                         </div>
                         <div className="target-body">
                            <h4 className="prid_text">Baúles del mundo</h4>

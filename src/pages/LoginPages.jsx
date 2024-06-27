@@ -22,7 +22,7 @@ export function LoginPages() {
     });
 
     useEffect(() => {
-        if (isAuthenticated) navigate("/#/");
+        if (isAuthenticated) navigate("/");
     }, [isAuthenticated]);
 
     return (

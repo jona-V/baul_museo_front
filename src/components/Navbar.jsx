@@ -19,7 +19,7 @@ function Navbar() {
                                 <div className="center-desk">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src=".\src\docs\BM-logo.png" alt="#" width="70" height="70" />
+                                            <img src="/BM-logo.png" alt="#" width="70" height="70" />
                                         </Link>
                                     </div>
                                 </div>
